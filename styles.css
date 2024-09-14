@@ -1,0 +1,72 @@
+@import url('fonts.css');
+@import url('keyframes.css');
+
+body {
+    margin: 0;
+    padding: 10%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8) ), url('images/vintage_shop.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.neon-sign {
+    min-width: 500px;
+    margin: 0 auto;
+    border: 6px solid #ffd4f4;
+    border-radius: 8px;
+    min-height: 250px;
+    text-align: center;
+    padding: 25px 45px;
+    position: absolute;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#neon-text {
+    font-family: "Neon 2";
+    font-weight: 200;
+    font-style: normal;
+    color: #ffd9e2;
+}
+
+#neon-sub-text {
+    font-family: "Neon 2";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    -webkit-text-stroke: 4px #ffd4f4;
+    /* color: #ffd9e2; */
+    -webkit-animation: text-flicker-in-glow 3000ms ease-in 2s both;
+    animation: text-flicker-in-glow 3000ms ease-in 2s both;
+}
+
+.text-flicker-in-glow {
+    font-size: 7rem;
+    color: transparent;
+    /* Make the fill of the text transparent */
+    /* -webkit-text-stroke: 4px #ffd4f4; */
+    color: #ffd4f4;
+    /* Add stroke to the text */
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    display: inline-block;
+    opacity: 0;
+}
+
+
+#soon {
+    font-family: "Neon 1";
+    font-weight: 200;
+    font-style: normal;
+    color: white;
+    font-size: 10rem;
+    text-align: center;
+}

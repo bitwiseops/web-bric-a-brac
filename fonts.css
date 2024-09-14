@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Neon 1";
+    src: url('fonts/neon.TTF') format('truetype');
+}
+
+@font-face {
+    font-family: "Neon 2";
+    src: url("fonts/Neonline-Regular.otf") format("opentype");
+}
